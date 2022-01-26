@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+
+  {% include "include/head.html" %}
+
+  <body>
+    <div class="page-content" id="article">
+      <div class="wrapper">
+        {% block content %}{% endblock content %}
+      </div>
+    </div>
+    
+  </body>
+
+  <script src="/js/zooming.min.js"></script>
+  <script>if (window.Zooming) window.addEventListener('load', function () { new Zooming().listen('.post-content img') })</script>
+  
+</html>

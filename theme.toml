@@ -1,0 +1,13 @@
+name = "placeless"
+homepage = "https://github.com/Quanuanc/placeless-zola-theme"
+
+[extra]
+
+[author]
+name = "Quanuanc"
+homepage = "https://quanuanc.github.io"
+
+[original]
+author =  "placeless"
+homepage = "https://placeless.net"
+repo = "https://github.com/placeless/pleceless-jekyll-theme"
